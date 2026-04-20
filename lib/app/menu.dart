@@ -68,6 +68,24 @@ class Menu extends StatelessWidget {
                 Navigator.pushNamed(context, Routes.cau5);
               },
             ),
+            MenuItem(
+              icon: Icons.search,
+              title: 'Câu 6',
+              subtitle: 'Search API (Query Params)',
+              color: Colors.teal,
+              onTap: () {
+                Navigator.pushNamed(context, Routes.cau6);
+              },
+            ),
+            MenuItem(
+              icon: Icons.refresh,
+              title: 'Câu 7',
+              subtitle: 'Pull to Refresh (Data Reload)',
+              color: Colors.indigo,
+              onTap: () {
+                Navigator.pushNamed(context, Routes.cau7);
+              },
+            ),
           ],
         ),
       ),

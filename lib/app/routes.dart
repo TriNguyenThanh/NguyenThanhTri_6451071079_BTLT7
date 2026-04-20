@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:rest_api_crud/app/menu.dart';
-import 'package:rest_api_crud/app/cau_placeholder_screen.dart';
 import 'package:rest_api_crud/cau2/screens/cau2_product_detail_screen.dart';
 import 'package:rest_api_crud/cau3/screens/cau3_create_post_screen.dart';
 import 'package:rest_api_crud/cau4/screens/cau4_update_user_screen.dart';
 import 'package:rest_api_crud/cau5/screens/cau5_delete_task_screen.dart';
+import 'package:rest_api_crud/cau6/screens/cau6_search_product_screen.dart';
+import 'package:rest_api_crud/cau7/screens/cau7_pull_to_refresh_screen.dart';
 import '../cau1/screens/cau1_user_list_screen.dart';
 
 class Routes {
@@ -24,7 +25,7 @@ class Routes {
     cau3: (context) => const Cau3CreatePostScreen(),
     cau4: (context) => const Cau4UpdateUserScreen(),
     cau5: (context) => const Cau5DeleteTaskScreen(),
-    cau6: (context) => const CauPlaceholderScreen(title: 'Cau 6'),
-    cau7: (context) => const CauPlaceholderScreen(title: 'Cau 7'),
+    cau6: (context) => const Cau6SearchProductScreen(),
+    cau7: (context) => const Cau7PullToRefreshScreen(),
   };
 }
