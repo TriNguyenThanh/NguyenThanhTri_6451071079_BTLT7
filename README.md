@@ -29,7 +29,7 @@ flutter run
 
 # Câu 5:
 
-<img src="./lib/cau5/ketquacau5a.png" width="100%">
+<img src="./lib/cau5/image.png" width="100%">
 
 # Câu 6:
 
