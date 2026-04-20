@@ -51,18 +51,18 @@ class Menu extends StatelessWidget {
               },
             ),
             MenuItem(
-              icon: Icons.shopping_bag,
+              icon: Icons.manage_accounts,
               title: 'Câu 4',
-              subtitle: 'Product List -> Product Detail',
+              subtitle: 'Update User Info (PUT API)',
               color: Colors.red,
               onTap: () {
                 Navigator.pushNamed(context, Routes.cau4);
               },
             ),
             MenuItem(
-              icon: Icons.palette,
+              icon: Icons.delete_sweep,
               title: 'Câu 5',
-              subtitle: 'Pick Color (Return Data)',
+              subtitle: 'Delete Item (DELETE API)',
               color: Colors.purple,
               onTap: () {
                 Navigator.pushNamed(context, Routes.cau5);
