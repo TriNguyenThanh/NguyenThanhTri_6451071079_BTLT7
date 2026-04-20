@@ -42,9 +42,9 @@ class Menu extends StatelessWidget {
               },
             ),
             MenuItem(
-              icon: Icons.settings,
+              icon: Icons.post_add,
               title: 'Câu 3',
-              subtitle: 'Settings View',
+              subtitle: 'Create Post (POST API)',
               color: Colors.orange,
               onTap: () {
                 Navigator.pushNamed(context, Routes.cau3);
